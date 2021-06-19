@@ -1,0 +1,36 @@
+.aboutcontent {
+   
+    
+    background-image: url("../images/food-adventure.jpg");
+    @include pictureSettings;
+
+    &__textbox {
+      @include textboxSettings;
+    
+    }
+
+    &__heading {
+        font-weight: 700;
+        color: rgb(225, 217, 217);
+        display: inline-block;
+        margin-top: 7rem;
+    }
+
+    &__content {
+        font-size: 2rem;
+        color: white;
+        margin-top: 3rem;
+    }
+}
+
+@media only screen and (max-width:1200px) {
+    .aboutcontent {
+
+        &__textbox {
+            margin-left: 3rem;
+            width: 100%;
+        }
+    }
+
+    
+}

@@ -1,0 +1,43 @@
+.form {
+   position: relative;
+   margin-bottom: 10rem;
+    background-color: black;
+    opacity: .8;
+&__heading {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color: white;
+    display: block;
+    position: relative;
+    margin-left:3rem ;
+    text-align: center;
+}
+    
+&__group {
+    padding: 3rem;
+}
+&__label {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+    color: white;
+    display: block;
+    
+}
+
+&__input {
+    font-size: 2rem;
+    width: 60%;
+    padding: 1.5rem 2rem;
+    border-radius: 2px;
+    background-color: rgba(white, .5);
+    border: none;
+    border-bottom: 3px solid transparent;
+
+    &:focus {
+        outline: none;
+        box-shadow: 0 1rem 2rem rgba(black, .1);
+        border-bottom: 3px solid white;
+    }
+}
+
+}

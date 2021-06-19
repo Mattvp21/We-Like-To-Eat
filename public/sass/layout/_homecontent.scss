@@ -1,0 +1,44 @@
+.homecontent {
+
+   
+    background-image: url("../images/home-image.jpg");
+    @include pictureSettings;
+
+    &__textbox {
+      @include textboxSettings;
+    
+    }
+
+    &__heading {
+       @include heading
+    }
+
+    &__content {
+      @include content
+    }
+}
+
+@media only screen and (max-width:1200px) {
+    .homecontent {
+
+        &__textbox {
+            margin-left: 3rem;
+            width: 100%;
+            height: 120%;
+        }
+
+    }
+
+    
+   
+}
+
+
+
+@media only screen and (max-width:556px) {
+   
+    .btn {
+        margin-top: 4rem;
+    }
+   
+}

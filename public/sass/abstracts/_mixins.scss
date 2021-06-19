@@ -1,0 +1,37 @@
+
+@mixin pictureSettings {
+    padding: 10rem 0;
+    background-size: cover;
+    
+    transform: translateY(-17rem);
+    position: relative;
+    height:100vh;
+}
+
+@mixin textboxSettings {
+    
+    font-family: 'Poppins', sans-serif;
+  
+    transform: translate(-3rem, -17rem);
+ position: relative;
+ height:100vh;
+
+ background-color: black ;  
+ padding: 3rem;
+}
+
+@mixin heading {
+    font-family: 'Poppins', sans-serif;
+        font-weight: 700;
+        color: rgb(225, 217, 217);
+        display: inline-block;
+        margin-top: 7rem;
+       
+}
+
+@mixin content {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+    color: white;
+    margin-top: 3rem;
+}
